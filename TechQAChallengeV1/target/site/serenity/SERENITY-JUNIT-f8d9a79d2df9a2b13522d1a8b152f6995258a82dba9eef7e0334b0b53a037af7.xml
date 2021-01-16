@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Title of your feature" skipped="0" tests="2" time="29.25" timestamp="2021-01-14 08:23:41"><testcase name="Fill out first page"/><testcase name="Fill out second page"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class='avatar-and-interests__upload-button']&quot;}&#10;  (Session info: chrome=87.0.4280.141)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'BORDACRUZ', ip: '192.168.10.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\usuario\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:virtualAuthenticators: true}&#10;Session ID: 246fe7b30e64474efb7bed167e587c95&#10;*** Element info: {Using=xpath, value=//a[@class='avatar-and-interests__upload-button']}&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'BORDACRUZ', ip: '192.168.10.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='avatar-and-interests__upload-button']"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BORDACRUZ', ip: '192.168.10.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\usuario\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:virtualAuthenticators: true}
+Session ID: 246fe7b30e64474efb7bed167e587c95
+*** Element info: {Using=xpath, value=//a[@class='avatar-and-interests__upload-button']}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BORDACRUZ', ip: '192.168.10.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: unknown</error><system-err>no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='avatar-and-interests__upload-button']"}
+  (Session info: chrome=87.0.4280.141)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BORDACRUZ', ip: '192.168.10.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\usuario\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webauthn:virtualAuthenticators: true}
+Session ID: 246fe7b30e64474efb7bed167e587c95
+*** Element info: {Using=xpath, value=//a[@class='avatar-and-interests__upload-button']}
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BORDACRUZ', ip: '192.168.10.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: driver.version: unknown&#13;
+com.userinyerface.userregister.test.pageobject.UserRegistrationPOM.uploadImage(UserRegistrationPOM.java:86)&#13;
+com.userinyerface.userregister.test.steps.UserRegistrationSteps.uploadImage(UserRegistrationSteps.java:63)&#13;
+com.userinyerface.userregister.test.stepdefinitions.UserRegistrationStepDefinitions.iUploadAImage(UserRegistrationStepDefinitions.java:59)&#13;
+✽.I upload a image(src/test/resources/com/userinyerface/userregister/test/feature/UserRegistration.feature:24)&#13;
+</system-err></testcase></testsuite>

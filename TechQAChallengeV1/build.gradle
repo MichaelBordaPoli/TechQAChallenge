@@ -1,0 +1,43 @@
+repositories {
+    mavenCentral()
+    mavenLocal()
+    jcenter()
+}
+
+//Descarga las dependencias que configuran a gradle, no hace parte del codigo fuente
+buildscript {
+    repositories {
+    	mavenLocal()
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+    //de aqui viene el pluggin aggregate que esta en la linea 5
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.0.80")
+    }
+}
+
+apply plugin: 'java-library'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+dependencies {
+	//Dependencias para poder automatizar con serenity
+	implementation 'net.serenity-bdd:serenity-junit:2.0.80'
+	implementation 'net.serenity-bdd:serenity-cucumber:1.9.45'
+    implementation 'net.serenity-bdd:serenity-core:2.0.80'
+    implementation 'org.slf4j:slf4j-simple:1.7.7'
+    implementation 'com.google.guava:guava:23.0'
+}
+
+//Configura propiedades de comando de ejecución de pruebas con gradle
+test {
+//Ingorar los fallos es: ejecutar todas las pruebas asi alguna falle
+	ignoreFailures = true
+}
+
+//Configuración del encoding del proyecto
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+gradle.startParameter.continueOnFailure = true
